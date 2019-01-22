@@ -1,12 +1,12 @@
 # Data Preparation for 2018_Chawanda_etal_EMS
 Scripts used to process data and namelist used in Chawanda et al. (2018).
-Find the QSWAT Workflow v1.5 [here](https://github.com/VUB-HYDR/QSWAT_Automated_Workflow)
+Find the QSWAT Workflow v1.5.2 [here](https://github.com/VUB-HYDR/QSWAT_Automated_Workflow)
 
 ## To Install
 [gdal](https://sandbox.idre.ucla.edu/sandbox/tutorials/installing-gdal-for-windows)   
  
 ## For users
-This repository includes the scripts that automatically downloads SRTM data for Blue Nile area and processes it for use with QSWAT Workflow v1.5.
+This repository includes the scripts that automatically downloads SRTM data for Blue Nile area and processes it for use with QSWAT Workflow v1.5.2.
 It also has script to process ESA land use data downloaded from [http://maps.elie.ucl.ac.be/CCI/viewer/download.php](http://maps.elie.ucl.ac.be/CCI/viewer/download.php) for the Blue Nile area. In This case, the 2009 land use map (ESACCI-LC-L4-LCCS-Map-300m-P1Y-2009-v2.0.7.tif) was used.
 There is also a script that processes the FAO soil data downloaded from [FAO's website](http://www.fao.org/geonetwork/srv/en/resources.get?id=14116&fname=DSMW.zip&access=private). The Shapefile from this data should be placed in [DSMW](./soil/DSMW) folder.
 
@@ -23,8 +23,8 @@ This scripts clips the 2009 ESA land use map to the Blue Nile and reprojects it.
 This script creates a raster map for the Blue Nile from the [FAO soil data](http://www.fao.org/geonetwork/srv/en/resources.get?id=14116&fname=DSMW.zip&access=private).
 The usersoil table used in this script is obtained from the installation of [MWSWAT](http://www.waterbase.org/download_mwswat.html) downloaded from http://www.waterbase.org/download_mwswat.html
 
-### 5. [settings.py](./settings.py)
-This is the namelist used in setting up the Blue Nile SWAT model presented in Chawanda et al. (2018) using the [QGIS Workflow v1.5](https://github.com/VUB-HYDR/QSWAT_Automated_Workflow).
+### 5. [namelist.py](./namelist.py)
+This is the namelist used in setting up the Blue Nile SWAT model presented in Chawanda et al. (2018) using the [QGIS Workflow v1.5.2](https://github.com/VUB-HYDR/QSWAT_Automated_Workflow).
 
 ## Author
 [Celray James CHAWANDA](https://github.com/celray/) 
