@@ -24,7 +24,7 @@ This script creates a raster map for the Blue Nile from the [FAO soil data](http
 The usersoil table used in this script is obtained from the installation of [MWSWAT](http://www.waterbase.org/download_mwswat.html) downloaded from http://www.waterbase.org/download_mwswat.html
 
 ### 5. [namelist.py](./namelist.py)
-This is the namelist used in setting up the Blue Nile SWAT model presented in Chawanda et al. (2019) using the [QGIS Workflow v1.5.8](https://github.com/VUB-HYDR/QSWAT_Automated_Workflow).
+This is the namelist used in setting up the Blue Nile SWAT model presented in Chawanda et al. (2019) using the [QSWAT Workflow v1.5.8](https://github.com/VUB-HYDR/QSWAT_Automated_Workflow).
 
 ## Author
 [Celray James CHAWANDA](https://github.com/celray/) 
