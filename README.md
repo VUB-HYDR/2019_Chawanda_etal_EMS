@@ -1,5 +1,5 @@
 # Data Preparation for 2019_Chawanda_etal_EMS
-Scripts used to process data and namelist used in Chawanda et al. (2018).
+Scripts used to process data and namelist used in Chawanda et al. (2019).
 Find the QSWAT Workflow v1.5.8 [here](https://github.com/VUB-HYDR/QSWAT_Automated_Workflow)
 
 ## To Install
